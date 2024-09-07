@@ -145,6 +145,7 @@ window.BLOCKLY_BOOT = function() {
       dir = window.BLOCKLY_DIR.match(/[^\\/]+$/)[0];
     }
   }
+}
 """))
     add_dependency = []
     base_path = calcdeps.FindClosureBasePath(self.search_paths)
